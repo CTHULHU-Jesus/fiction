@@ -28,17 +28,17 @@ jobs:
         
       - name: check wiki repo content
         run: |
-          ls -al ~
+          ls -al ~/runners
       - name: Install Dependencies to build pdf's.
         run: |
-          sudo apt-get install pandoc
+          # sudo apt-get install pandoc
       - name: edit wiki
         run: |
           cd . # moves to wiki repo
           for article in $(find . -name "*.md$") \
           do \
             echo $article \
-          done;
+          done
       - name: Commit files
         run: |
           echo off for testing
