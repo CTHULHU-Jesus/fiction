@@ -29,7 +29,7 @@ jobs:
 
       - name: Install Dependencies to build pdf's.
         run: |
-          sudo apt-get install pandoc
+          sudo apt-get install pandoc weasyprint
       - name: Make page directory
         run: |
           mkdir -p docs
@@ -45,6 +45,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
+          git status
           git commit -m "Add changes"
       - name: Push changes to wiki repo
         uses: ad-m/github-push-action@master

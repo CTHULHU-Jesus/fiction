@@ -27,7 +27,7 @@ done
 
 #create Home.html
 cat $SOURCE_DIR/Home_foot.md >> $INSTALL_DIR/Home.md;
-pandoc $PANDOC_ARGS Home.md -o $INSTALL_DIR/index.html;
+pandoc $PANDOC_ARGS $INSTALL_DIR/Home.md -o $INSTALL_DIR/index.html;
 # remove Home.md
 rm $INSTALL_DIR/Home.md
 
