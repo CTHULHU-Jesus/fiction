@@ -3,6 +3,8 @@ body {
   background-color: black;
   color: grey;
   font-size: 150%;
+  padding: 0;
+  margin: 0;
 }
 
 p {
