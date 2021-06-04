@@ -29,15 +29,16 @@ jobs:
       - name: check wiki repo content
         run: |
           pwd
+          ls $(pwd)/..
       - name: Install Dependencies to build pdf's.
         run: |
           # sudo apt-get install pandoc
       - name: edit wiki
         run: |
-          cd . # moves to wiki repo
-          for article in $(find . -name "*.md$"); \
-          do \
-            echo $article; \
+          cd . ; # moves to wiki repo
+          for article in $(find . -name "*.md$");
+          do 
+            echo $article;
           done
       - name: Commit files
         run: |
