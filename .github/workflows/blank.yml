@@ -28,7 +28,7 @@ jobs:
         
       - name: check wiki repo content
         run: |
-          ls -al ~/runners
+          pwd
       - name: Install Dependencies to build pdf's.
         run: |
           # sudo apt-get install pandoc
