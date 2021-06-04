@@ -37,17 +37,14 @@ jobs:
         run: |
           echo "test later"
           # rm -rf docs/*
-      - name: Build pdf's and wiki home page
+      - name: Build pdf's and home page
         run: |
           page_setup/build.sh $(pwd)/docs "https://cthulhu-jesus.github.io/fiction/"
-      - name: Clean up build
-        run: |
-          rm -rf fiction
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
+          git add docs/*
           git commit -m "Add changes"
       - name: Push changes to wiki repo
         uses: ad-m/github-push-action@master
