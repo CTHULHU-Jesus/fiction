@@ -60,8 +60,7 @@ The house was quiet. This was normal for midnight at her house. What was abnorma
 
 Blake was a Luneborn, A race of tall androgynous immortals who could split into a male and female form. Luneborn look like tall humans until the age of 25 when they stop ageing. While split there regeneration powers are also split as is there consciousness, but they are still able to communicate with each other via telepathy.
 
-> **Authors Note:**
-> Instead of saying "female Blake" or "male Blake" I will be using Blake^♀^ and Blake^♂^ respectfully. And I will be doing this for all Luneborn in the future.
+> **Authors Note:** Instead of saying "female Blake" or "male Blake" I will be using Blake^♀^ and Blake^♂^ respectfully. And I will be doing this for all Luneborn in the future.
 
 Left confused by there interaction with Maggee Blake waited for Maggee to leave. Once she was out of sight Blake looked around to make sure that they were alone and waved there hand. The puddle of blood and the pile of spit disappeared leaving no trace of what had transpired there.
 
