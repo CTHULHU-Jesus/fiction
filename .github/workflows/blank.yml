@@ -29,7 +29,7 @@ jobs:
 
       - name: Install Dependencies to build pdf's.
         run: |
-          sudo apt-get install pandoc weasyprint
+          sudo apt-get install pandoc=2.5-3build2 weasyprint=51-2
       - name: Make page directory
         run: |
           mkdir -p docs
