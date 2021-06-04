@@ -7,13 +7,14 @@ header-includes: |
     p {
       text-indent: 0.5in;
     }
-    blockquote {
+    blockquote p {
       text-indent: 0 !important;
     }
 
     h1 {
       text-align: center;
     }
+
     @page{
       @bottom-center {
         content: counter(page);
@@ -72,3 +73,13 @@ Blake was lazy by nature but they had a job to do. Blake split into two there fo
 Blake♂ took up a jog almost immediately, he had farther to go and wanted to get the butterfly's out of his stomach. Once he reached the edge of the north side of town he stooped to catch his breath before taking in the town before him. The town he saw before him was ramshackle and beat up, but still chugging along. Most of the buildings were only one or two stories tall. But the clear centerpiece of the town was the church. All of the other buildings had clear ware on them, splintered boards, chipped paint, and few roofs that looked like they might cave in any day now. But the church was pristine. The white walls didn't have a blemish on them.
 
 While creepy It was probably unrelated to Blake♂'s mission so he ignored it for the time being and started looking for a store, any would do as he wasn't looking to buy anything. 
+
+The store looking establishment Blake♂ entered was just as grimy on the inside as it was on the outside. When Blake♂ walked the man at the counter called out in the kindest voice Blake♂ had ever heard and said "Hey there stranger. What brings you here? My name is Dan." Now that Blake♂ got a good look at him he could see a smile that filled the room. "I'm looking for someone actually." Blake♂ responded. "An animal doctor" he added.
+
+"Well that would be Mr. Clementine. Him and his daughter keep busy by taking care of all of the animals around here. Really nice folks." Dan rattled off never dropping that smile. Blake♂ realised that Dan was the kind of person who is happy where ever they are.
+
+"Thank you. Do you have there address?" Blake♂ responded after a moment.
+
+"Sure thing buddy. Let me just write it down to make it easier for you." Dan said. Pulling out a slip of paper and a penile.
+
+While Dan wrote the address Blake♂ looked around franticly for something to buy. Blake♂ didn't want to seem rude after all. He settled on an apple and left the store with the answer to his quest. He didn't head for the address, instead walking around aimlessly through town, he had an apple to eat and Blake♀ was closer anyways.
