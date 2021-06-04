@@ -35,9 +35,9 @@ jobs:
       - name: edit wiki
         run: |
           cd . # moves to wiki repo
-          for article in $(find . -name "*.md$") \
+          for article in $(find . -name "*.md$"); \
           do \
-            echo $article \
+            echo $article; \
           done
       - name: Commit files
         run: |
