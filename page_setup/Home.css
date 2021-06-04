@@ -1,0 +1,25 @@
+body {
+  min-height: 100%;
+  background-color: black;
+  color: grey;
+  font-size: 150%;
+}
+
+p {
+  text-indent: 0.5in;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+

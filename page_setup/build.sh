@@ -18,16 +18,27 @@ cp $SOURCE_DIR/Home_head.md $INSTALL_DIR/Home.md;
 for ARTICLE in $(find $MARKDOWN_DIR -name "*.md")
 do
   NAME=$(basename $ARTICLE .md);
+  NAME=${NAME//_/ };
   echo "working on $NAME.";
   # Compile pdf
-  pandoc $PANDOC_ARGS $ARTICLE -o $INSTALL_DIR/$NAME.pdf;
+  pandoc $PANDOC_ARGS $ARTICLE -o "$INSTALL_DIR/$NAME.pdf";
   # Add link to homepage
-  echo "- [$NAME]($SITE_URL/$NAME.pdf)\n" >> $INSTALL_DIR/Home.md;
+  echo -e "- [$NAME]($SITE_URL/$NAME.pdf)\n" >> $INSTALL_DIR/Home.md;
 done
 
 #create Home.html
 cat $SOURCE_DIR/Home_foot.md >> $INSTALL_DIR/Home.md;
 pandoc $PANDOC_ARGS $INSTALL_DIR/Home.md -o $INSTALL_DIR/index.html;
+# add css
+echo -e " 
+  <head> 
+    <title>Fiction | Matthew Bartlett</title>
+    <style>
+      $(cat $SOURCE_DIR/Home.css)
+    </style>
+  </head>
+  $(cat $INSTALL_DIR/index.html)" > $INSTALL_DIR/index.html;
+
 # remove Home.md
 rm $INSTALL_DIR/Home.md
 
