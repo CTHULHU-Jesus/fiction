@@ -24,30 +24,33 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: ${{github.repository}}.wiki    # specify the wiki repo name here.
+          repository: ${{github.repository}} # specify the wiki repo name here.
         
-      - name: check wiki repo content
-        run: |
-          pwd
-          ls -alR $(pwd)/..
+
       - name: Install Dependencies to build pdf's.
         run: |
-          # sudo apt-get install pandoc
-      - name: edit wiki
+          sudo apt-get install pandoc
+      - name: Make page directory
         run: |
-          for article in $(find . -name "*.md$");
-          do 
-            echo $article;
-          done
+          mkdir -p docs
+      - name: Clean up former pages
+        run: |
+          echo "test later"
+          # rm -rf docs/*
+      - name: Build pdf's and wiki home page
+        run: |
+          fiction/page_setup/build.sh $(pwd)/docs "https://cthulhu-jesus.github.io/fiction/"
+      - name: Clean up build
+        run: |
+          rm -rf fiction
       - name: Commit files
         run: |
-          echo off for testing
-          # git config --local user.email "action@github.com"
-          # git config --local user.name "GitHub Action"
-          # git add .
-          # git commit -m "Add changes"
-          #       - name: Push changes to wiki repo
-          #         uses: ad-m/github-push-action@master
-          #         with:
-          #           repository: ${{github.repository}}.wiki    # specify the wiki repo and push the update.
-          #           github_token: ${{ secrets.GITHUB_TOKEN }}
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add changes"
+      - name: Push changes to wiki repo
+        uses: ad-m/github-push-action@master
+        with:
+          repository: ${{github.repository}}.wiki    # specify the wiki repo and push the update.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
