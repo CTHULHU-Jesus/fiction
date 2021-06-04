@@ -7,6 +7,9 @@ header-includes: |
     p {
       text-indent: 0.5in;
     }
+    blockquote {
+      text-indent: 0 !important;
+    }
 
     h1 {
       text-align: center;
@@ -56,12 +59,16 @@ As she left her room she made sure to make as little noise as possible. She paid
 
 The house was quiet. This was normal for midnight at her house. What was abnormal was the front door barely hanging off of its hinges in hall. Then as if on cue she heard the stairs creek. As she whipped around to look at what had made the noise she saw a bright white figure descend the stairs. It was 6ft tall had abnormally long arms. It also sported the head and tail of a crocodile. As Maggee scrambled as silently as she could to hide behind the kitchens half wall she neglected to notice the monsters large teeth and the blood on its clawed fingers. The huge monster sniffed the air and began approaching Maggee's hiding spot. She felt terrified, and assumed that this was to be her end. The beast let out a deafening roar. But before she started making her final prayers a spear hurtled past her fast enough to blow her hair around pinning the strange monster to the wall at the neck. When she looked up to see who had thrown the spear she saw a shorter manlier version of Blake standing in the kitchen doorway.
 
-### Chapter 3: Blake
+### Chapter 3: Blake♂/♀
 
 Blake was a Luneborn, A race of tall androgynous immortals who could split into a male and female form. Luneborn look like tall humans until the age of 25 when they stop ageing. While split there regeneration powers are also split as is there consciousness, but they are still able to communicate with each other via telepathy.
 
-> **Authors Note:** Instead of saying "female Blake" or "male Blake" I will be using Blake^♀^ and Blake^♂^ respectfully. And I will be doing this for all Luneborn in the future.
+> **Authors Note:** Instead of saying "female Blake" or "male Blake" I will be using Blake♀ and Blake♂ respectfully. And I will be doing this for all Luneborn in the future.
 
-Left confused by there interaction with Maggee Blake waited for Maggee to leave. Once she was out of sight Blake looked around to make sure that they were alone and waved there hand. The puddle of blood and the pile of spit disappeared leaving no trace of what had transpired there.
+Left confused by there interaction with Maggee, Blake waited for Maggee to leave. Once she was out of sight Blake looked around to make sure that they were alone. And with a simple waved of there hand the puddle of blood and the pile of vomit disappeared leaving no trace of what had transpired there.
 
-Blake was lazy by nature but they had a job to do. Blake split into two there forms. The male Blake then began to head to the north side of the town while the female Blake headed to the south side of town.
+Blake was lazy by nature but they had a job to do. Blake split into two there forms. Blake♂ then began to head to the north side of the town while Blake♀ headed to the south side of town. 
+
+Blake♂ took up a jog almost immediately, he had farther to go and wanted to get the butterfly's out of his stomach. Once he reached the edge of the north side of town he stooped to catch his breath before taking in the town before him. The town he saw before him was ramshackle and beat up, but still chugging along. Most of the buildings were only one or two stories tall. But the clear centerpiece of the town was the church. All of the other buildings had clear ware on them, splintered boards, chipped paint, and few roofs that looked like they might cave in any day now. But the church was pristine. The white walls didn't have a blemish on them.
+
+While creepy It was probably unrelated to Blake♂'s mission so he ignored it for the time being and started looking for a store, any would do as he wasn't looking to buy anything. 
