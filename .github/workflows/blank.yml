@@ -30,23 +30,18 @@ jobs:
       - name: Install Dependencies to build pdf's.
         run: |
           sudo apt-get install pandoc=2.5-3build2 weasyprint=51-2
-      - name: Make page directory
-        run: |
-          mkdir -p docs
-      - name: Clean up former pages
-        run: |
-          rm -f docs/*
       - name: Build pdf's and home page
         run: |
-          page_setup/build.sh $(pwd)/docs "https://cthulhu-jesus.github.io/fiction/"
+          cd page_setup
+          make clean install
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git status
-          git commit -m "Add changes"
-      - name: Push changes to wiki repo
+          git commit -m "BOT: Built Website"
+      - name: Push changes to repo
         uses: ad-m/github-push-action@master
         with:
           repository: ${{github.repository}}    # specify the wiki repo and push the update.
