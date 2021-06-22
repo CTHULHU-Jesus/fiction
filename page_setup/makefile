@@ -56,6 +56,5 @@ clean: $(d_dir)
 		if [ -f "$$file" ] ; then \
 			echo removeing $$file; \
 			git rm "$$file" || true ; \
-			rm "$$file" ; \
 		fi \
 	done
