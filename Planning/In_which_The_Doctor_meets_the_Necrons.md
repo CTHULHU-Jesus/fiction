@@ -1,0 +1,1 @@
+Doctor meets Necros and works with Kars-051 for peace between the two planets. The peace is fragile at best. Kars-051 is taken on as a new companion by the doctor ("would you take me on your ship to discover knowledge?" "No." "What if I agree to care about the lives of others?").

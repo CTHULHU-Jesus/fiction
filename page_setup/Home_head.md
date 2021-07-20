@@ -12,5 +12,3 @@ Author: Matthew Bartlett
 
 ## <span style="color:white;">**WARNING:**</span> Employers and teachers this side project is not for you. 
 
-## Stories:
-
