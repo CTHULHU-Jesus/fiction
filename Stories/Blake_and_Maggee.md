@@ -83,3 +83,21 @@ The store looking establishment Blake♂ entered was just as grimy on the inside
 "Sure thing buddy. Let me just write it down to make it easier for you." Dan said. Pulling out a slip of paper and a penile.
 
 While Dan wrote the address Blake♂ looked around franticly for something to buy. Blake♂ didn't want to seem rude after all. He settled on an apple and left the store with the answer to his quest. He didn't head for the address, instead walking around aimlessly through town, he had an apple to eat and Blake♀ was closer anyways.
+
+@TODO rewrite the section with "DAN"
+
+@TODO Get Blake and Maggie to the world of Kryst.
+
+## Chapter N
+
+Once the world stopped spinning, they slammed into reality. Maggie tried her best to stay on her feet, but ended up falling onto her side. Blake, tired as they were, just fell flat on there face. After a moment to get her bearings, she said "Where are we again?"
+
+"Kryst" Blake muttered back.
+
+"Didn't you say that that was just past Oregon?" Maggie responded slowly sitting up.
+
+"Didn't we get here right after Oregon?" Blake said, face still firmly planted on the floor.
+
+"I felt the distance between Oregon and here. That was no small distance." Maggie said, now laying back down. 
+
+After a few minutes of rest from the journey, Blake stood up and proclaimed "This is the world Kryst. My home and home of the oracles. And while it has a few differences from the world you come from, I hope you like it."
